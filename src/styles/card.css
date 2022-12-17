@@ -1,0 +1,39 @@
+.img-appartement {
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    object-fit: cover;
+    background: linear-gradient(185deg, transparent 70%, rgba(0, 0, 0, .5));
+}
+
+.img__filter {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(185deg, transparent 70%, rgba(0, 0, 0, .5));
+    border-radius: 10px;
+}
+
+.titre {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 890px) {
+    .img__filter {
+        height: 95%;
+    }
+    .titre {
+        bottom: 33px;
+    }
+}

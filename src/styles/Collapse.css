@@ -1,0 +1,39 @@
+.content {
+    border: 1px solid #F7F7F7;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #F7F7F7;
+    color: #FF6060;
+    font-size: 25ùpx;
+}
+
+.content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.9s;
+}
+
+.bas {
+    overflow: hidden;
+    transition: height ease 0.9s;
+}
+
+.content-show {
+    height: 200px;
+}
+
+.boutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #FF6060;
+    border: #FF6060;
+    border-radius: 8px;
+    width: 100%;
+    margin: 30px 0 0 0;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}

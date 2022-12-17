@@ -1,0 +1,16 @@
+.hostPicture img {
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.host-comp p {
+    margin: 0 20px 0 0;
+    font-size: 20px;
+}
+
+.host-comp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

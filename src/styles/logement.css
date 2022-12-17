@@ -1,0 +1,77 @@
+@media screen and (min-width: 1244px) {
+    .Host__Rating {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.logement__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    width: 100%;
+    align-items: center;
+}
+
+.logement__title {
+    margin: 0;
+    font-size: 35px;
+}
+
+.logement__location {
+    margin: 15px 0 0;
+    font-size: 20px;
+}
+
+h1,
+h2,
+p {
+    color: #ff6060;
+    font-weight: 500;
+}
+
+.Host__Box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.Host__Rating {
+    width: 150px;
+}
+
+.logement-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logement-collapse .collapse {
+    width: 45%;
+}
+
+.tags-Box {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 890px) {
+    .logement__content {
+        display: block;
+    }
+    .Host__Rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        float: row-reverse;
+        width: 100%;
+    }
+    .logement-collapse {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .logement-collapse .collapse {
+        width: 100%;
+    }
+}

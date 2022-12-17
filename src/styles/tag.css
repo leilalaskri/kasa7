@@ -1,0 +1,17 @@
+.box__essai p {
+    margin: 5px;
+    padding: 3px 3px;
+    border-radius: 7px;
+    color: #fff;
+    background: #ff6060;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__essai {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+}

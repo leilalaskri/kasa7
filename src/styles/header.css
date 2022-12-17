@@ -1,0 +1,25 @@
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        color: #FF6060
+    }
+    
+    li {
+        margin: 0px 0px 0px 25px;
+    }
+    
+    .header__link {
+        font-size: 25px;
+        text-decoration: none;
+        color: #FF6060
+    }

@@ -1,0 +1,38 @@
+.divError {
+    color: #FF6060;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.divError h2 {
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.divError p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.divError a {
+    color: #FF6060;
+}
+
+.paragraphe {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 890px) {
+    .divError p {
+        margin: 0px;
+    }
+    .paragraphe {
+        display: block;
+    }
+}

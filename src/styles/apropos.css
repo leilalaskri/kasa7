@@ -1,0 +1,21 @@
+@media screen and (min-width: 891px) {
+    .ApropBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blocCollapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocCollapse .collapse {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .collapse {
+        width: 100%;
+    }
+}
